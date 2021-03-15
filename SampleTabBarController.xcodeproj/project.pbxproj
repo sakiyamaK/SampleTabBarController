@@ -10,9 +10,13 @@
 		B66723EA25FEFB200089358C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B66723E925FEFB200089358C /* AppDelegate.swift */; };
 		B66723EC25FEFB200089358C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B66723EB25FEFB200089358C /* SceneDelegate.swift */; };
 		B66723EE25FEFB200089358C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B66723ED25FEFB200089358C /* ViewController.swift */; };
-		B66723F125FEFB200089358C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B66723EF25FEFB200089358C /* Main.storyboard */; };
 		B66723F325FEFB210089358C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B66723F225FEFB210089358C /* Assets.xcassets */; };
 		B66723F625FEFB210089358C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B66723F425FEFB210089358C /* LaunchScreen.storyboard */; };
+		B667240025FEFE1C0089358C /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = B66723FF25FEFE1C0089358C /* Router.swift */; };
+		B667243F25FF0F9C0089358C /* FadeTabAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = B667243E25FF0F9C0089358C /* FadeTabAnimation.swift */; };
+		B667244325FF16E90089358C /* AnimationTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B667244225FF16E90089358C /* AnimationTabBarController.swift */; };
+		B667246025FF5E120089358C /* SlideTabAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = B667245F25FF5E120089358C /* SlideTabAnimation.swift */; };
+		B667246625FF6B7D0089358C /* RandomRotationTabAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = B667246525FF6B7D0089358C /* RandomRotationTabAnimation.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,10 +24,14 @@
 		B66723E925FEFB200089358C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B66723EB25FEFB200089358C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		B66723ED25FEFB200089358C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		B66723F025FEFB200089358C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B66723F225FEFB210089358C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B66723F525FEFB210089358C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B66723F725FEFB210089358C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B66723FF25FEFE1C0089358C /* Router.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
+		B667243E25FF0F9C0089358C /* FadeTabAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FadeTabAnimation.swift; sourceTree = "<group>"; };
+		B667244225FF16E90089358C /* AnimationTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationTabBarController.swift; sourceTree = "<group>"; };
+		B667245F25FF5E120089358C /* SlideTabAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlideTabAnimation.swift; sourceTree = "<group>"; };
+		B667246525FF6B7D0089358C /* RandomRotationTabAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomRotationTabAnimation.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +64,27 @@
 		B66723E825FEFB200089358C /* SampleTabBarController */ = {
 			isa = PBXGroup;
 			children = (
+				B667245E25FF5E010089358C /* TabAnimations */,
 				B66723E925FEFB200089358C /* AppDelegate.swift */,
+				B66723F225FEFB210089358C /* Assets.xcassets */,
+				B66723F725FEFB210089358C /* Info.plist */,
+				B66723F425FEFB210089358C /* LaunchScreen.storyboard */,
+				B66723FF25FEFE1C0089358C /* Router.swift */,
 				B66723EB25FEFB200089358C /* SceneDelegate.swift */,
 				B66723ED25FEFB200089358C /* ViewController.swift */,
-				B66723EF25FEFB200089358C /* Main.storyboard */,
-				B66723F225FEFB210089358C /* Assets.xcassets */,
-				B66723F425FEFB210089358C /* LaunchScreen.storyboard */,
-				B66723F725FEFB210089358C /* Info.plist */,
+				B667244225FF16E90089358C /* AnimationTabBarController.swift */,
 			);
 			path = SampleTabBarController;
+			sourceTree = "<group>";
+		};
+		B667245E25FF5E010089358C /* TabAnimations */ = {
+			isa = PBXGroup;
+			children = (
+				B667243E25FF0F9C0089358C /* FadeTabAnimation.swift */,
+				B667245F25FF5E120089358C /* SlideTabAnimation.swift */,
+				B667246525FF6B7D0089358C /* RandomRotationTabAnimation.swift */,
+			);
+			path = TabAnimations;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,7 +146,6 @@
 			files = (
 				B66723F625FEFB210089358C /* LaunchScreen.storyboard in Resources */,
 				B66723F325FEFB210089358C /* Assets.xcassets in Resources */,
-				B66723F125FEFB200089358C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,23 +156,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B667244325FF16E90089358C /* AnimationTabBarController.swift in Sources */,
+				B667243F25FF0F9C0089358C /* FadeTabAnimation.swift in Sources */,
+				B667246625FF6B7D0089358C /* RandomRotationTabAnimation.swift in Sources */,
+				B667240025FEFE1C0089358C /* Router.swift in Sources */,
 				B66723EE25FEFB200089358C /* ViewController.swift in Sources */,
 				B66723EA25FEFB200089358C /* AppDelegate.swift in Sources */,
 				B66723EC25FEFB200089358C /* SceneDelegate.swift in Sources */,
+				B667246025FF5E120089358C /* SlideTabAnimation.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		B66723EF25FEFB200089358C /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				B66723F025FEFB200089358C /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		B66723F425FEFB210089358C /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
