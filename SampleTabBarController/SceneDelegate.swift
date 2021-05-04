@@ -9,9 +9,13 @@ import UIKit
 
 class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 
+  var appPresenter: AppPresenter!
+
   func scene(_ scene: UIScene, willConnectTo session: UISceneSession, options connectionOptions: UIScene.ConnectionOptions) {
     guard let scene = (scene as? UIWindowScene) else { return }
-    AppRouter.shared.showRoot(window: UIWindow(windowScene: scene))
+
+    appPresenter = AppRouter.assembleModules(window: UIWindow(windowScene: scene))
+    appPresenter.didFinishLaunch()
   }
 
   func sceneDidDisconnect(_ scene: UIScene) {

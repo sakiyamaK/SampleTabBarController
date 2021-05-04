@@ -1,0 +1,9 @@
+VIPER:
+  Target: SampleTabBarController
+  TemplateDirectoryPath: ./templates/PuiTemplate/ios/VIPER
+  GenerateRootPath: ./SampleTabBarController
+
+MVC_COLLECTION:
+  Target: SampleTabBarController
+  TemplateDirectoryPath: ./templates/PuiTemplate/ios/MVC_COLLECTION
+  GenerateRootPath: ./SampleTabBarController
