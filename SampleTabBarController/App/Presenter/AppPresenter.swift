@@ -8,24 +8,24 @@
 import Foundation
 
 protocol AppPresentation: AnyObject {
-  func didFinishLaunch()
+    func didFinishLaunch()
 }
 
 final class AppPresenter {
-  private let router: AppWireframe
-  private let interactor: AppUsecase
-
-  init(
-    interactor: AppUsecase,
-    router: AppWireframe
-  ) {
-    self.interactor = interactor
-    self.router = router
-  }
+    private let router: AppWireframe
+    private let interactor: AppUsecase
+    
+    init(
+        interactor: AppUsecase,
+        router: AppWireframe
+    ) {
+        self.interactor = interactor
+        self.router = router
+    }
 }
 
 extension AppPresenter: AppPresentation {
-  func didFinishLaunch() {
-    self.router.showAnimationTabBar()
-  }
+    func didFinishLaunch() {
+        self.router.showHome()
+    }
 }

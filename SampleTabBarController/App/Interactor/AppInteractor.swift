@@ -11,8 +11,8 @@ protocol AppUsecase {
 }
 
 final class AppInteractor {
-  init() {
-  }
+    init() {
+    }
 }
 
 extension AppInteractor: AppUsecase {

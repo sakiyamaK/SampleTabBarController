@@ -11,8 +11,8 @@ protocol AnimationTabBarUsecase {
 }
 
 final class AnimationTabBarInteractor {
-  init() {
-  }
+    init() {
+    }
 }
 
 extension AnimationTabBarInteractor: AnimationTabBarUsecase {

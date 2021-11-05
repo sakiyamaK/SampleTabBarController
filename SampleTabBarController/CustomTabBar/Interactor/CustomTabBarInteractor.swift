@@ -11,8 +11,8 @@ protocol CustomTabBarUsecase {
 }
 
 final class CustomTabBarInteractor {
-  init() {
-  }
+    init() {
+    }
 }
 
 extension CustomTabBarInteractor: CustomTabBarUsecase {

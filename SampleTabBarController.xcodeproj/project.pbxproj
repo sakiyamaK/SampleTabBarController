@@ -15,64 +15,76 @@
 		10897BCB413AC341AC742440 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = E4BAD18F74CB97594B402FEA /* Kingfisher */; };
 		14FB40FBBAC6EB3B78EEE81E /* AnimationTabBarEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD4700343F566B45E75A24E0 /* AnimationTabBarEntity.swift */; };
 		171495B9BA3C06602C823A1F /* FadeTabAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABF4FB2FE66BC00EFC3B85B2 /* FadeTabAnimation.swift */; };
+		1B69E40F9B181A9DA40AB23B /* TabBarAppearanceEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60592F55369B04C4FD918555 /* TabBarAppearanceEntity.swift */; };
 		20336E2288C177A668B24177 /* AppPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 001141649EBA476B57FA5305 /* AppPresenter.swift */; };
+		20DFB623F9ADF897121267FB /* TabBarAppearanceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59B8712CBC472ECDD3998243 /* TabBarAppearanceViewController.swift */; };
 		26F8B21D999A71A9EC1FC896 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9F7F2B51108FFC05D5915758 /* Assets.xcassets */; };
 		3F7A304B76CD02CF42E9B471 /* RandomRotationTabAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C02BC9DCDF511C3B44F6E2F /* RandomRotationTabAnimation.swift */; };
 		44796B2482D48FA463B19844 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6514B346626784714FF3175C /* LaunchScreen.storyboard */; };
 		4A313AE0573236592829F7FF /* CustomTabBarPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A168EBFA1857F1706B98C3B /* CustomTabBarPresenter.swift */; };
+		4B7F6CC5C4F5096CBF927B68 /* TabBarAppearancePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78AAF68E0BBB43D856829830 /* TabBarAppearancePresenter.swift */; };
 		532E370AF43E26F74263EFB7 /* CustomTabBarRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B7DE5A4A36ACB022F555D36 /* CustomTabBarRouter.swift */; };
 		5A21215BE012DD59A3968ABC /* HomeInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7721D630667199C8C85F297B /* HomeInteractor.swift */; };
 		69638667D651F835523100E5 /* UIViewController+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E53518578B9776EFF347C20 /* UIViewController+.swift */; };
-		8635DF48388B8FA20233C3F8 /* CustomTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1356196570159A3BA3071394 /* CustomTabBarController.swift */; };
-		902FAAE2E5BACF84431EBF5D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4254AFF2DF961109BF04BFA /* ViewController.swift */; };
+		6DE3364586C9775BFFFBF39C /* CustomTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1439529C5853AB21B2AA641E /* CustomTabBar.swift */; };
 		91EDC2F33088B24A440C7965 /* AppEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ACA62564C517AD3ABB3E5DA /* AppEntity.swift */; };
 		966395AD795A05114741D609 /* Log.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCA7563C7F7AB74F82940407 /* Log.swift */; };
+		A97601E5748A75F158FCDF59 /* CustomTabBarRepresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 950A5D06151553B3F9497A86 /* CustomTabBarRepresentable.swift */; };
 		AD29C62C047D077EB3BA9E25 /* AnimationTabBarPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E69E71EE9C6180EA20D4984 /* AnimationTabBarPresenter.swift */; };
 		B5C4890D6A69903BC5F4AB99 /* AnimationTabBarRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E07C8BAB70129D9CE26A336F /* AnimationTabBarRouter.swift */; };
-		B665A38A2641155D00BA65CB /* CustomTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = B665A3892641155D00BA65CB /* CustomTabBar.swift */; };
-		B665A38E26412BAD00BA65CB /* CustomTabBarRepresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = B665A38D26412BAD00BA65CB /* CustomTabBarRepresentable.swift */; };
+		B64A882E2734DCCE0067FEB5 /* UIView+.swift in Sources */ = {isa = PBXBuildFile; fileRef = B64A882D2734DCCE0067FEB5 /* UIView+.swift */; };
+		B7E55BE34DBBFB23F1C3391C /* TabBarAppearance.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 72DF471976E5948D8DD31C69 /* TabBarAppearance.storyboard */; };
 		BA20DCB9E01969ABF5E97382 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A926F5DD60053153CB90C65 /* HomeViewController.swift */; };
 		BAFC57B890E635B6261E5F4B /* CustomTabBarEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7064257D7960B5D6B0B76B8 /* CustomTabBarEntity.swift */; };
 		C7D6BB3B05C7872FC67B6FFC /* AppRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 133906811C3D32B6890E57A0 /* AppRouter.swift */; };
 		C92F52EE13EE6ECC2C883D84 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60EE75CBAEF793E77C88B527 /* AppDelegate.swift */; };
+		CCEA0E2F55B59111A7509A9A /* TabBarAppearanceRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35F753F29C5E2D8D045A5A4D /* TabBarAppearanceRouter.swift */; };
+		D0E7735F827A1C65C1AF9659 /* TabBarAppearanceInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BB32CE72EF3973459309E53 /* TabBarAppearanceInteractor.swift */; };
 		D5D663A2089E5F2D57B49E7F /* HomeEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4836544B5AE12C6E801323D /* HomeEntity.swift */; };
 		D81B4653F7D0230F9A9D2D09 /* HomePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4A21A2E39044E13BB877345 /* HomePresenter.swift */; };
 		DD50198C37B305E8D321156A /* AnimationTabBarInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = E303D27A8F041AA0F68BDA1F /* AnimationTabBarInteractor.swift */; };
+		E7DFFBBE319D0C933A7AEE7D /* CustomTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57F5FBA06E8F34A3C4C20B9C /* CustomTabBarController.swift */; };
 		FAD1E6F8ABE0A5E73546E616 /* CustomTabBarInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85040629080E8ACE73AB1603 /* CustomTabBarInteractor.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		001141649EBA476B57FA5305 /* AppPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppPresenter.swift; sourceTree = "<group>"; };
 		02F5225A3E5305C541BC9A0C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		0BB32CE72EF3973459309E53 /* TabBarAppearanceInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarAppearanceInteractor.swift; sourceTree = "<group>"; };
 		133906811C3D32B6890E57A0 /* AppRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppRouter.swift; sourceTree = "<group>"; };
-		1356196570159A3BA3071394 /* CustomTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBarController.swift; sourceTree = "<group>"; };
+		1439529C5853AB21B2AA641E /* CustomTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBar.swift; sourceTree = "<group>"; };
 		2222F48FE5BAF397188A489B /* SlideTabAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlideTabAnimation.swift; sourceTree = "<group>"; };
+		35F753F29C5E2D8D045A5A4D /* TabBarAppearanceRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarAppearanceRouter.swift; sourceTree = "<group>"; };
 		3E53518578B9776EFF347C20 /* UIViewController+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+.swift"; sourceTree = "<group>"; };
 		4A6BAAE3623C3C00791D7800 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		57F5FBA06E8F34A3C4C20B9C /* CustomTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBarController.swift; sourceTree = "<group>"; };
 		5998D84A46DF9376166D81DC /* AnimationTabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationTabBarViewController.swift; sourceTree = "<group>"; };
+		59B8712CBC472ECDD3998243 /* TabBarAppearanceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarAppearanceViewController.swift; sourceTree = "<group>"; };
 		5A168EBFA1857F1706B98C3B /* CustomTabBarPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBarPresenter.swift; sourceTree = "<group>"; };
 		5BB987C66E06F40539F739BA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		604336A8A7E8E0F862B8EE1C /* HomeRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeRouter.swift; sourceTree = "<group>"; };
+		60592F55369B04C4FD918555 /* TabBarAppearanceEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarAppearanceEntity.swift; sourceTree = "<group>"; };
 		60EE75CBAEF793E77C88B527 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		61DBE4BBD139472D32BF58BA /* SampleTabBarController.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = SampleTabBarController.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6A926F5DD60053153CB90C65 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		6ACA62564C517AD3ABB3E5DA /* AppEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppEntity.swift; sourceTree = "<group>"; };
+		72DF471976E5948D8DD31C69 /* TabBarAppearance.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = TabBarAppearance.storyboard; sourceTree = "<group>"; };
 		7721D630667199C8C85F297B /* HomeInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeInteractor.swift; sourceTree = "<group>"; };
+		78AAF68E0BBB43D856829830 /* TabBarAppearancePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarAppearancePresenter.swift; sourceTree = "<group>"; };
 		7E69E71EE9C6180EA20D4984 /* AnimationTabBarPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationTabBarPresenter.swift; sourceTree = "<group>"; };
 		85040629080E8ACE73AB1603 /* CustomTabBarInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBarInteractor.swift; sourceTree = "<group>"; };
 		8B7DE5A4A36ACB022F555D36 /* CustomTabBarRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBarRouter.swift; sourceTree = "<group>"; };
 		8C02BC9DCDF511C3B44F6E2F /* RandomRotationTabAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomRotationTabAnimation.swift; sourceTree = "<group>"; };
+		950A5D06151553B3F9497A86 /* CustomTabBarRepresentable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBarRepresentable.swift; sourceTree = "<group>"; };
 		9F7F2B51108FFC05D5915758 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A7064257D7960B5D6B0B76B8 /* CustomTabBarEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBarEntity.swift; sourceTree = "<group>"; };
 		ABF4FB2FE66BC00EFC3B85B2 /* FadeTabAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FadeTabAnimation.swift; sourceTree = "<group>"; };
-		B665A3892641155D00BA65CB /* CustomTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBar.swift; sourceTree = "<group>"; };
-		B665A38D26412BAD00BA65CB /* CustomTabBarRepresentable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBarRepresentable.swift; sourceTree = "<group>"; };
+		B64A882D2734DCCE0067FEB5 /* UIView+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+.swift"; sourceTree = "<group>"; };
 		C4A21A2E39044E13BB877345 /* HomePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePresenter.swift; sourceTree = "<group>"; };
 		CCA7563C7F7AB74F82940407 /* Log.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Log.swift; sourceTree = "<group>"; };
 		CD4700343F566B45E75A24E0 /* AnimationTabBarEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationTabBarEntity.swift; sourceTree = "<group>"; };
 		E07C8BAB70129D9CE26A336F /* AnimationTabBarRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationTabBarRouter.swift; sourceTree = "<group>"; };
 		E303D27A8F041AA0F68BDA1F /* AnimationTabBarInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationTabBarInteractor.swift; sourceTree = "<group>"; };
-		E4254AFF2DF961109BF04BFA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		F4836544B5AE12C6E801323D /* HomeEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeEntity.swift; sourceTree = "<group>"; };
 		F9E569CA1070A7445973F7EA /* AppInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppInteractor.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -117,12 +129,36 @@
 			path = Entity;
 			sourceTree = "<group>";
 		};
+		19EA1C7011440992FB98A69D /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+				60592F55369B04C4FD918555 /* TabBarAppearanceEntity.swift */,
+			);
+			path = Entity;
+			sourceTree = "<group>";
+		};
+		200B0E92C2D38EEADC21E583 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				78AAF68E0BBB43D856829830 /* TabBarAppearancePresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
 		2132482BFE2EA41533580780 /* Presenter */ = {
 			isa = PBXGroup;
 			children = (
 				7E69E71EE9C6180EA20D4984 /* AnimationTabBarPresenter.swift */,
 			);
 			path = Presenter;
+			sourceTree = "<group>";
+		};
+		21708DCBD528FCAEAA3435A9 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				0BB32CE72EF3973459309E53 /* TabBarAppearanceInteractor.swift */,
+			);
+			path = Interactor;
 			sourceTree = "<group>";
 		};
 		2430D2B88E5E8C5D19E689F4 /* Interactor */ = {
@@ -198,14 +234,35 @@
 			path = Router;
 			sourceTree = "<group>";
 		};
+		6241A4CD146328F92EC3DBF8 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				72DF471976E5948D8DD31C69 /* TabBarAppearance.storyboard */,
+				59B8712CBC472ECDD3998243 /* TabBarAppearanceViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		66819D32BF98A7A065ACB390 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				1356196570159A3BA3071394 /* CustomTabBarController.swift */,
-				B665A3892641155D00BA65CB /* CustomTabBar.swift */,
-				B665A38D26412BAD00BA65CB /* CustomTabBarRepresentable.swift */,
+				1439529C5853AB21B2AA641E /* CustomTabBar.swift */,
+				57F5FBA06E8F34A3C4C20B9C /* CustomTabBarController.swift */,
+				950A5D06151553B3F9497A86 /* CustomTabBarRepresentable.swift */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		7759C10309D118858BCFF317 /* TabBarAppearance */ = {
+			isa = PBXGroup;
+			children = (
+				19EA1C7011440992FB98A69D /* Entity */,
+				21708DCBD528FCAEAA3435A9 /* Interactor */,
+				200B0E92C2D38EEADC21E583 /* Presenter */,
+				EEEB9945C8128F5653C76729 /* Router */,
+				6241A4CD146328F92EC3DBF8 /* View */,
+			);
+			path = TabBarAppearance;
 			sourceTree = "<group>";
 		};
 		7766F00F6AB4C44C395DFCA5 /* TabAnimations */ = {
@@ -226,13 +283,13 @@
 				4A6BAAE3623C3C00791D7800 /* Info.plist */,
 				6514B346626784714FF3175C /* LaunchScreen.storyboard */,
 				02F5225A3E5305C541BC9A0C /* SceneDelegate.swift */,
-				E4254AFF2DF961109BF04BFA /* ViewController.swift */,
 				C0F81432942666D640D1EB9E /* AnimationTabBar */,
 				FC23BE5838B2589472BB8813 /* App */,
 				F66620D5580F65DB5789018D /* CustomTabBar */,
 				917B4F5CF8736D4F01E2869E /* Extension */,
 				93DB620D4B64F46A24E242D5 /* Helper */,
 				09C7878E94B4C7DA0845A174 /* Home */,
+				7759C10309D118858BCFF317 /* TabBarAppearance */,
 			);
 			path = SampleTabBarController;
 			sourceTree = "<group>";
@@ -249,6 +306,7 @@
 			isa = PBXGroup;
 			children = (
 				3E53518578B9776EFF347C20 /* UIViewController+.swift */,
+				B64A882D2734DCCE0067FEB5 /* UIView+.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -303,6 +361,14 @@
 				001141649EBA476B57FA5305 /* AppPresenter.swift */,
 			);
 			path = Presenter;
+			sourceTree = "<group>";
+		};
+		EEEB9945C8128F5653C76729 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				35F753F29C5E2D8D045A5A4D /* TabBarAppearanceRouter.swift */,
+			);
+			path = Router;
 			sourceTree = "<group>";
 		};
 		F4B946954AE07F3964C2E277 /* Interactor */ = {
@@ -410,6 +476,7 @@
 			files = (
 				26F8B21D999A71A9EC1FC896 /* Assets.xcassets in Resources */,
 				44796B2482D48FA463B19844 /* LaunchScreen.storyboard in Resources */,
+				B7E55BE34DBBFB23F1C3391C /* TabBarAppearance.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -429,17 +496,18 @@
 				91EDC2F33088B24A440C7965 /* AppEntity.swift in Sources */,
 				08D5DD56BB6DA50433F7F297 /* AppInteractor.swift in Sources */,
 				20336E2288C177A668B24177 /* AppPresenter.swift in Sources */,
+				B64A882E2734DCCE0067FEB5 /* UIView+.swift in Sources */,
 				C7D6BB3B05C7872FC67B6FFC /* AppRouter.swift in Sources */,
+				6DE3364586C9775BFFFBF39C /* CustomTabBar.swift in Sources */,
+				E7DFFBBE319D0C933A7AEE7D /* CustomTabBarController.swift in Sources */,
 				BAFC57B890E635B6261E5F4B /* CustomTabBarEntity.swift in Sources */,
 				FAD1E6F8ABE0A5E73546E616 /* CustomTabBarInteractor.swift in Sources */,
 				4A313AE0573236592829F7FF /* CustomTabBarPresenter.swift in Sources */,
+				A97601E5748A75F158FCDF59 /* CustomTabBarRepresentable.swift in Sources */,
 				532E370AF43E26F74263EFB7 /* CustomTabBarRouter.swift in Sources */,
-				8635DF48388B8FA20233C3F8 /* CustomTabBarController.swift in Sources */,
 				171495B9BA3C06602C823A1F /* FadeTabAnimation.swift in Sources */,
-				B665A38A2641155D00BA65CB /* CustomTabBar.swift in Sources */,
 				D5D663A2089E5F2D57B49E7F /* HomeEntity.swift in Sources */,
 				5A21215BE012DD59A3968ABC /* HomeInteractor.swift in Sources */,
-				B665A38E26412BAD00BA65CB /* CustomTabBarRepresentable.swift in Sources */,
 				D81B4653F7D0230F9A9D2D09 /* HomePresenter.swift in Sources */,
 				01E46326C12244436BD7B12B /* HomeRouter.swift in Sources */,
 				BA20DCB9E01969ABF5E97382 /* HomeViewController.swift in Sources */,
@@ -447,8 +515,12 @@
 				3F7A304B76CD02CF42E9B471 /* RandomRotationTabAnimation.swift in Sources */,
 				1029F2D22AF6906329618F69 /* SceneDelegate.swift in Sources */,
 				027D950D0173449C1AC9B9E8 /* SlideTabAnimation.swift in Sources */,
+				1B69E40F9B181A9DA40AB23B /* TabBarAppearanceEntity.swift in Sources */,
+				D0E7735F827A1C65C1AF9659 /* TabBarAppearanceInteractor.swift in Sources */,
+				4B7F6CC5C4F5096CBF927B68 /* TabBarAppearancePresenter.swift in Sources */,
+				CCEA0E2F55B59111A7509A9A /* TabBarAppearanceRouter.swift in Sources */,
+				20DFB623F9ADF897121267FB /* TabBarAppearanceViewController.swift in Sources */,
 				69638667D651F835523100E5 /* UIViewController+.swift in Sources */,
-				902FAAE2E5BACF84431EBF5D /* ViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

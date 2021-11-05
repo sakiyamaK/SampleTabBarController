@@ -19,3 +19,28 @@ extension UIViewController {
     }
   }
 }
+
+extension UIViewController {
+    func withNavigationController() -> UINavigationController {
+        .init(rootViewController: self)
+    }
+}
+
+extension UIViewController {
+    static func createSampleViewController(
+        centerLabelText: String,
+        tabTitleText: String
+    ) -> UIViewController {
+        let vc = UIViewController()
+        vc.view.backgroundColor = .white
+        let label = UILabel()
+        label.text = centerLabelText
+        label.textAlignment = .center
+        vc.view.addSubview(label)
+        label.translatesAutoresizingMaskIntoConstraints = false
+        label.centerXAnchor.constraint(equalTo: vc.view.centerXAnchor).isActive = true
+        label.centerYAnchor.constraint(equalTo: vc.view.centerYAnchor).isActive = true
+        vc.tabBarItem.title = tabTitleText
+        return vc
+    }
+}

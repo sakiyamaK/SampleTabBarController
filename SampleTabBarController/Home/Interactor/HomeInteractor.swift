@@ -11,8 +11,8 @@ protocol HomeUsecase {
 }
 
 final class HomeInteractor {
-  init() {
-  }
+    init() {
+    }
 }
 
 extension HomeInteractor: HomeUsecase {
